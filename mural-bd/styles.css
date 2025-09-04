@@ -1,11 +1,12 @@
-* { font-family: Verdana; font-size: 96%; margin:0; padding:0;}
+* { font-family: Verdana; font-size: 96%; margin:0; padding:0;color: rgb(0, 0, 0);}
 label { display: block; margin-top: 10px; }
-label.error { float: none; color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 10px }
+label.error { float: none; color: rgb(61, 0, 243); margin: 0 .5em 0 0; vertical-align: top; font-size: 10px }
 p { clear: both; }
 .submit { margin-top: 1em; }
 em { font-weight: bold; padding-right: 1em; vertical-align: top; }
 body{
-	background:url(images/bg.png) repeat;
+	background: #000000;
+
 }
 
 #main{
@@ -15,7 +16,7 @@ body{
 
 #geral{
 	width:500px;
-	background:#FFFFFF;
+	background:#2b00ff;
 	float:left;
 }
 
@@ -36,6 +37,7 @@ body{
 	background-color: #EAF9FF;
 	padding: 10px;
 	list-style-type: none;
+	border-radius: 23px;
 }
 
 #header h1 {
@@ -50,7 +52,7 @@ body{
 #header p {
 	font-size: 13px;
 	font-style: normal;
-	color: #999999;
+	color: #0b14c0;
 	margin-left: 5px;
 }
 #header a {
@@ -62,8 +64,9 @@ body{
 	float: left;
 	width: 480px;
 	margin-bottom: 10px;
-	background:#F5F5F5;
+	background:#ff0000;
 	padding:10px;
+	border-radius: 23px;
 }
 #mural input{
 	width: 150px;
@@ -105,6 +108,6 @@ body{
 }
 
 #footer a{
-	color:#CCCCCC;
+	color:#0000ff;
 	text-decoration:none;
 }
