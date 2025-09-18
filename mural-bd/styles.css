@@ -18,6 +18,7 @@ body{
 	width:500px;
 	background:#2b00ff;
 	float:left;
+	padding: 15px;
 }
 
 #header{
@@ -33,11 +34,12 @@ body{
 	margin-bottom: 10px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #0066FF;
+	border-bottom-color: #000000;
 	background-color: #EAF9FF;
 	padding: 10px;
 	list-style-type: none;
 	border-radius: 23px;
+	padding: 15px;
 }
 
 #header h1 {
@@ -45,14 +47,14 @@ body{
 	font-size: 18px;
 	font-style: normal;
 	font-weight: bold;
-	color: #000000;
+	color: #ffffff;
 	margin-top: 20px;
 	margin-left: 5px;
 }
 #header p {
 	font-size: 13px;
 	font-style: normal;
-	color: #0b14c0;
+	color: #000000;
 	margin-left: 5px;
 }
 #header a {
@@ -64,7 +66,7 @@ body{
 	float: left;
 	width: 480px;
 	margin-bottom: 10px;
-	background:#ff0000;
+	background:#00d0ff;
 	padding:10px;
 	border-radius: 23px;
 }
@@ -73,13 +75,15 @@ body{
 	padding-top: 7px;
 	padding-bottom: 7px;
 	margin-top: 3px;
-	border: 1px solid #666666;
+	border: 1px solid #000000;
+	border-radius: 23px;
 }
 #mural textarea {
 	padding: 5px;
 	height: 90px;
 	width: 140px;
-	border: 1px solid #666666;
+	border: 1px solid #000000;
+	border-radius: 23px;
 }
 .btn {
 	padding: 7px;
