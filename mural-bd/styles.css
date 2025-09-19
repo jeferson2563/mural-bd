@@ -40,6 +40,7 @@ body{
 	list-style-type: none;
 	border-radius: 23px;
 	padding: 15px;
+
 }
 
 #header h1 {
@@ -71,7 +72,7 @@ body{
 	border-radius: 23px;
 }
 #mural input{
-	width: 150px;
+	width: 400px;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	margin-top: 3px;

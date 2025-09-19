@@ -103,7 +103,7 @@ COMPARAÇÃO:
         </div>
 
         <div class="produtos-container">
-            <?php while($res = mysqli_fetch_assoc($recados)): ?>
+            <?php while($res = mysqli_fetch_assoc($produtos)): ?>
                 <div class="produto">
                     <p><strong>ID:</strong> <?= $res['id'] ?></p>
                     <p><strong>Nome:</strong> <?= htmlspecialchars($res['nome']) ?></p>

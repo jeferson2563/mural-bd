@@ -2,8 +2,8 @@
 // Configurações do banco de dados
 $host    = "localhost"; // servidor do banco
 $usuario = "root";      // usuário do banco
-$senha   = " ";          // senha do banco
-$banco   = " ";     // nome do banco de dados
+$senha   = "";          // senha do banco
+$banco   = "mural-bd";     // nome do banco de dados
 
 // Conexão MySQLi
 $conexao = mysqli_connect($host, $usuario, $senha, $banco);
@@ -21,7 +21,7 @@ mysqli_set_charset($conexao, "utf8");
 // ==========================================
 
 // Substituam os valores abaixo pelas credenciais da sua própria conta do Cloudinary
-$cloud_name = "mural-bd";  // exemplo: "meucloud123"
+$cloud_name = "dqitamwji";  // exemplo: "meucloud123"
 $api_key    = "727562386141174";     // exemplo: "123456789012345"
 $api_secret = "3nQ4G88SyT_ah5LynKtcUGIIefI";  // exemplo: "abcdeFGHijkLMNopqrstu"
 
